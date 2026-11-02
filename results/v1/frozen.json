@@ -1,0 +1,68 @@
+{
+ "frozen_at": "2026-11-01",
+ "thresholds": {
+  "abstention_llm@gpt-6-luna": 1.0,
+  "abstention_reranker": 0.15544054156878773,
+  "abstention_rule": 1.0,
+  "bleu": 0.19149840220719178,
+  "citation_coverage": 0.3333333333333333,
+  "citation_support": 0.0,
+  "citations_exist": 1.0,
+  "completeness_llm@gpt-6-luna": 1.0,
+  "context_relevance_reranker@gpt-6-luna": 0.6951959003037856,
+  "context_sufficiency_llm@gpt-6-luna": 1.0,
+  "correctness_llm@gpt-6-luna": 1.0,
+  "cross_encoder_relevance": 0.001890006351479896,
+  "deepeval.answer_relevancy@gpt-6-luna": 1.0,
+  "deepeval.contextual_recall@gpt-6-luna": 0.5,
+  "deepeval.faithfulness@gpt-6-luna": 0.5,
+  "embedding_relevance": 0.645157298753094,
+  "embedding_similarity": 0.8711047221112594,
+  "exact_facts": 0.5,
+  "faithfulness_llm@gpt-6-luna": 0.75,
+  "key_point_mean": 0.06817626953125,
+  "key_point_nli": 0.0,
+  "lettucedetect": 0.631578947368421,
+  "nli_correctness": 0.0035495758056640625,
+  "number_grounding": 0.5,
+  "ragas.answer_correctness@gpt-6-luna": 0.7891342781099906,
+  "ragas.answer_relevancy@gpt-6-luna": 0.6385787477392858,
+  "ragas.context_recall@gpt-6-luna": 1.0,
+  "ragas.faithfulness@gpt-6-luna": 0.0,
+  "relevance_llm@gpt-6-luna": 1.0,
+  "rouge_l": 0.42307692307692313,
+  "sentence_nli": 0.061279296875,
+  "signal_ratio@gpt-6-luna": 0.2,
+  "token_f1": 0.5333333333333333,
+  "token_support": 0.6
+ },
+ "evaluator_files": {
+  "evaluators/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "evaluators/abstention.py": "dd35a7dc1b6f39a60f7f014a46e168608425d8dc2961eb28339680e8652e2630",
+  "evaluators/citations.py": "f25fa036cafd9df97cb036c5045844bae01ef2adbb94b98becb1ecac1a96120f",
+  "evaluators/completeness.py": "5acf3a089b54153e218908c335ee80c2213540c6f1b31d59915800e65a5d70b8",
+  "evaluators/context.py": "b3f18320bce4e7722fa93a024a35fd7b60408058b8cde58580787ffc00d09475",
+  "evaluators/correctness.py": "3efc58482c50a138be6e721f9e53df88b641b72a40a56d6033f56ffb44bbfd7e",
+  "evaluators/faithfulness.py": "59d913956f43b1403cfe04f4a703a4064c249feb51585e4dbed2f775db79ecd9",
+  "evaluators/relevance.py": "58258266861508e8974763680ccf394648ae24d78d2a4d2f75629c7c5566e1a5",
+  "evaluators/retrieval.py": "c788e6cfeaa5ff0321ebc59264a0a96d3d519749daea499228ea703e475156c3",
+  "evaluators/robustness.py": "dbaa195bcb527b7f54384d90dd271fecb7fd8d1ab8bee18f68014ccd50636e3c"
+ },
+ "library_runners": {
+  "scripts/lib_ragas.py": "9bff6d2a638362df64a83733c6a8b83788bca6641f7f3e0dac201d002382cbb9",
+  "scripts/lib_deepeval.py": "da1590c727d515f12a121c21ef1f26c4ab487b0f43a72cd6567e8a494ada0bf0"
+ },
+ "lock_files": {
+  "requirements/deepeval.lock": "47dfa6bfef83069d0dbab33b33657b1f20a46301dd1a541819421a9c085666ea",
+  "requirements/ragas.lock": "90c4b107414def2f6fbf39947dd2880e2ae44de981aadbf9707c84597f2cf426",
+  "requirements/main.lock": "589753e09d42081b9bc839842309a72dfdf09c7fa47f2b509e8a9b1717361511"
+ },
+ "test_set_hashes": {
+  "questions.jsonl": "d3aff44e5040b57c3d84470d2095526d54a2b4aeae75060f8f2f494fd1d153cf",
+  "cases.jsonl": "b390cb84ab352e9c9206d5dfb608c13045d433e0b141f730a2c2e1c0ee73cbaf",
+  "tasks.jsonl": "80eb60bc209ce1fdd43e8c2c5f09e92d59ff2fc0b425c7e3933b915eb6c0d651",
+  "contexts.json": "dc3c50ba00fee532bb9009d62f78f8d44fa6bced137e3463dc815b91446cbe1b"
+ },
+ "judge": "gpt-6-luna",
+ "dev_cases": "08cb9ea6589021ca4112b73a5844de85b28aab7af2266cca9b4c0ce198d96bf7"
+}
