@@ -63,7 +63,7 @@ html = f"""<!doctype html><html><head><meta charset="utf-8"><title>RAG Eval Suit
 <div class="eyebrow">RAG Eval Suite · Real answers</div>
 <h1>Cheap metrics flagged 27–65% of good real answers. An LLM judge flagged 2%.</h1>
 <div class="sub">Same frozen thresholds as the planted test. Part of the gap is that gold-based paraphrases sit closer to gold than real answers do.</div>
-<table><thead><tr><th>Does it match the correct answer?</th><th>Planted paraphrased or longer answers flagged</th><th>Good real answers flagged</th><th>Wrong or partial real answers caught, excluding refusals</th></tr></thead><tbody>{body}</tbody></table>
+<table><thead><tr><th>Correctness evaluator</th><th>Planted paraphrased or longer answers flagged</th><th>Good real answers flagged</th><th>Wrong or partial real answers caught, excluding refusals</th></tr></thead><tbody>{body}</tbody></table>
 <footer><div>Real answers from glm-5.3-flash on IRS test questions, labeled by AI agents without seeing scores, no human review. Good answers came from retrieved chunks, and wrong ones from chunks or evidence-removed context. Small samples, and answers from one generator.</div><div class="repo">github.com/fixverified/rag-eval-suite</div></footer>
 </body></html>"""
 Path("docs/results_v2.html").write_text(html)
