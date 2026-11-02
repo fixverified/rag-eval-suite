@@ -35,6 +35,13 @@ Version 2 scored real answers from `z-ai/glm-5.3-flash` with the same frozen thr
 - **The generator knew a lot without retrieval.** It got 41 of 59 right closed-book, so a correct answer doesn't prove retrieval worked.
 - **Too few real answers made unsupported claims to compare faithfulness evaluators,** with only 6 cases.
 
+## Reliability and real-answer calibration (version 3)
+
+Full tables are in [RESULTS_V3.md](docs/RESULTS_V3.md). Earlier results and thresholds didn't change.
+
+- **LLM verdicts were fairly stable.** Over 5 runs per answer, `correctness_llm` changed its verdict on 2 of 119 answers, and `faithfulness_llm` on 15 of 159.
+- **Better thresholds didn't rescue most cheap metrics.** Calibrated on real answers, most caught 1–5 of 19 wrong or partial answers, with AUROCs of 0.48–0.67, against 0.98 for `correctness_llm` and 0.91 for `ragas.answer_correctness`.
+
 ## Choosing an evaluator
 
 | Question | Evaluators | What you need |
@@ -94,7 +101,7 @@ PYTHONPATH=src:scripts:. .venv/bin/python scripts/report.py
 
 ## Limits
 
-- **Some planned work wasn't run:** synthetic-corpus memory control, repeat-run reliability, document-shift set, external datasets, GLM judge comparison, and most other library metrics. Version 2 added real answers and the chunks vs. full-document comparison.
+- **Some planned work wasn't run:** synthetic-corpus memory control, document-shift set, external datasets, GLM judge comparison, and most other library metrics. Version 2 added real answers and the chunks vs. full-document comparison, and version 3 added repeat-run reliability.
 - **Version 1 failures are planted, and real samples are small.** Version 2 has one generator and small samples, with many of its wrong answers from evidence-removed context.
 - **Our prompts were tuned on dev, while library prompts stayed as shipped.** Both library results also use dev-calibrated thresholds.
 - **Results cover one corpus and one main judge.** `gpt-6-luna` isn't a dated snapshot.

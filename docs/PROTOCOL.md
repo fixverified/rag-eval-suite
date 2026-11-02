@@ -146,6 +146,14 @@ Added after version 1 results were public, with version 1 thresholds and prompts
 
 **Chunks vs. full document:** on single-publication answerable questions, compare answers generated from chunks and from the full publication, each judged by `faithfulness_llm` against chunks and against the full publication. Full-document judging uses LLM judges only, because NLI models truncate long inputs.
 
+## Version 3
+
+Added after version 2 was public. Neither analysis changes earlier results.
+
+**Calibration on real answers:** 5-fold cross-validation by question, on answers from chunks or evidence-removed context. Each fold sets a threshold for at most 5% false alarms on good answers from the other folds, then scores its own questions. Refusals are reported separately from wrong answers.
+
+**Repeat-run reliability:** `faithfulness_llm` and `correctness_llm` run 5 times on those answers, with different seeds, on `gpt-6-luna` at temperature 1. Reported: how often an answer's verdict at the frozen threshold changes across runs, and how often its rating changes.
+
 ## Limits to state
 
 Results cover this corpus, these questions, these models and these injected categories. Benchmark prevalence is artificial, so precision shouldn't be read as real-world precision. The document-shift set covers two related publications, so it can't support general claims about new domains. Common metrics are not new, and this repo's contribution is measuring them side by side on labeled failures.
@@ -153,6 +161,7 @@ Results cover this corpus, these questions, these models and these injected cate
 ## Change log
 
 - 2026-11-01: First version.
+- 2026-11-01: Added version 3 after publishing version 2.
 - 2026-11-01: Added version 2 after publishing version 1.
 - 2026-11-01: Split by whole publication rather than connected components, before any questions existed.
 - 2026-11-01: After seeing dev results, and before test: `faithfulness_llm` now receives the question and allows simple arithmetic, because it marked correct terse answers as unsupported.
