@@ -6,9 +6,11 @@
 
 Copy-and-paste RAG evaluators, each measured on the same labeled failures, so you can see what each one catches and misses before using it.
 
-![Heatmaps of how often each evaluator flagged planted RAG failures, with false alarm rates](docs/results.png)
+![Overview of eight correctness evaluators on planted failures and real answers, with four key numbers](docs/overview.png)
 
 ## Results
+
+![Heatmaps of how often each evaluator flagged planted RAG failures, with false alarm rates](docs/results.png)
 
 Evaluators were scored on 50 sealed questions, once, with thresholds frozen on separate data. A separate agent wrote these questions, but the builder knew the failure categories and exploit families, so this isn't full blinding. All numbers below are from that test. Full tables are in [RESULTS.md](docs/RESULTS.md).
 
