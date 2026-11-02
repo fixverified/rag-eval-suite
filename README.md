@@ -22,6 +22,19 @@ Evaluators were scored on 50 sealed questions, once, with thresholds frozen on s
 
 These are planted failures, which are often easier than real ones, so don't read them as production recall. Most categories have 30 questions, but some have 14–28. With 30, a perfect 100% has a 95% lower bound near 89%.
 
+## Real answers (version 2)
+
+![Table comparing how often correctness evaluators flagged planted and real answers](docs/results_v2.png)
+
+Version 2 scored real answers from `z-ai/glm-5.3-flash` with the same frozen thresholds. Two AI agents labeled them without seeing scores, and a third settled 5 disagreements out of about 1,000 labels. Full tables are in [RESULTS_V2.md](docs/RESULTS_V2.md).
+
+- **Cheap correctness metrics flagged many good answers.** On 48 good answers from retrieved chunks, they flagged 27–65%, against 2% for `correctness_llm` and 38% for `ragas.answer_correctness`. Some of this is threshold calibration on gold-based answers, but embedding and NLI scores also separated good from wrong poorly.
+- **The LLM judge also caught all 19 wrong or partial answers** in the set every evaluator saw, as did `ragas.answer_correctness`. Other metrics caught 8–15.
+- **Full context answered more questions.** On the same 52 questions, the generator got 49 right from the full publication and 43 from chunks. Chunks were wrong and the full publication right on 8 questions, 5 of which were refusals.
+- **Evaluators judged against chunks can penalize answers supported by the full document.** Of the answers generated from the full publication, 8 were flagged against chunks but not against the publication.
+- **The generator knew a lot without retrieval.** It got 41 of 59 right closed-book, so a correct answer doesn't prove retrieval worked.
+- **Too few real answers made unsupported claims to compare faithfulness evaluators,** with only 6 cases.
+
 ## Choosing an evaluator
 
 | Question | Evaluators | What you need |
@@ -81,11 +94,11 @@ PYTHONPATH=src:scripts:. .venv/bin/python scripts/report.py
 
 ## Limits
 
-- **Version 1 is partial.** Not run: the chunks vs. full-document comparison, real generated-answer failures, memory control, repeat-run reliability, document-shift set, external datasets, and most other library metrics. See [RESULTS.md](docs/RESULTS.md#not-run-in-version-1).
-- **Planted failures may be easier than real ones.** LLM judges in particular may score lower on real answers.
+- **Some planned work wasn't run:** synthetic-corpus memory control, repeat-run reliability, document-shift set, external datasets, GLM judge comparison, and most other library metrics. Version 2 added real answers and the chunks vs. full-document comparison.
+- **Version 1 failures are planted, and real samples are small.** Version 2 has one generator and small samples, with many of its wrong answers from evidence-removed context.
 - **Our prompts were tuned on dev, while library prompts stayed as shipped.** Both library results also use dev-calibrated thresholds.
-- **Results cover one corpus, one judge and one generator of cases.** `gpt-6-luna` isn't a dated snapshot.
-- **Labels are AI-written and AI-audited.** Audits found and fixed label errors, but no human has reviewed them yet.
+- **Results cover one corpus and one main judge.** `gpt-6-luna` isn't a dated snapshot.
+- **Labels are AI-written and AI-audited.** Audits found and fixed label errors, and AI labelers aren't independent of each other. No human has reviewed them yet.
 - **No pairwise significance tests were run,** so small differences aren't findings.
 - **Not tax advice.** The corpus is only test material. Unaffiliated with the IRS, and IRS publications are credited as the source.
 

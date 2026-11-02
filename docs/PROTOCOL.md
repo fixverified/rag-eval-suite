@@ -138,6 +138,14 @@ Injected cases are labeled by construction. Every real generated answer gets a l
 
 A test run isn't started unless the pilot shows it fits. If one stops mid-run anyway, partial results stay unpublished as test results and the shortfall is reported.
 
+## Version 2
+
+Added after version 1 results were public, with version 1 thresholds and prompts unchanged. Results are labeled post-test and reported separately.
+
+**Real answers:** the generator (`z-ai/glm-5.3-flash`) answers all 100 test questions using hybrid-retrieved chunks. Answerable questions are also answered with gold evidence removed, closed-book and from the full publication. Two agents label each answer independently, without evaluator scores, and a third settles disagreements. Thirty answerable and 20 unanswerable questions weren't used in version 1 cases, and results also report them separately. Closed-book answers tag what the generator may know from memory.
+
+**Chunks vs. full document:** on single-publication answerable questions, compare answers generated from chunks and from the full publication, each judged by `faithfulness_llm` against chunks and against the full publication. Full-document judging uses LLM judges only, because NLI models truncate long inputs.
+
 ## Limits to state
 
 Results cover this corpus, these questions, these models and these injected categories. Benchmark prevalence is artificial, so precision shouldn't be read as real-world precision. The document-shift set covers two related publications, so it can't support general claims about new domains. Common metrics are not new, and this repo's contribution is measuring them side by side on labeled failures.
@@ -145,6 +153,7 @@ Results cover this corpus, these questions, these models and these injected cate
 ## Change log
 
 - 2026-11-01: First version.
+- 2026-11-01: Added version 2 after publishing version 1.
 - 2026-11-01: Split by whole publication rather than connected components, before any questions existed.
 - 2026-11-01: After seeing dev results, and before test: `faithfulness_llm` now receives the question and allows simple arithmetic, because it marked correct terse answers as unsupported.
 - 2026-11-01: Version 1 reporting differs from the plan above. No real-answer clean controls, paired comparisons, dollar cost per evaluator, or errors-as-misses table are published. Intervals use Wilson at question level. Context comparisons use answerable questions only, decided after a final review noticed that libraries couldn't run on unanswerable ones.

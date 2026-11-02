@@ -1,0 +1,270 @@
+{"answer_id": "test-a01-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a01-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a01-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a01-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a02-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a02-gold_removed", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Partial: gives $50 per person from 502-p13-c5, misses $100 and says meals not covered; context lacks them."}
+{"answer_id": "test-a02-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a02-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a03-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a03-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a03-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a03-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a04-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a04-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a04-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a04-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a05-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a05-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a05-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a05-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a06-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a06-gold_removed", "faithful": false, "relevant": true, "correct": true, "complete": true, "abstention": false, "notes": "$270 is right but not in context; 502-p12-c0 covers employment taxes only, answer overstates it and extrapolates instead of declining."}
+{"answer_id": "test-a06-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a06-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a07-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a07-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a07-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a07-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a08-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a08-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "Limits are in 503-p2-c5 although the gold quote is absent."}
+{"answer_id": "test-a08-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a08-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a09-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a09-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a09-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a09-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a10-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a10-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "503-p11-c1 states the limits."}
+{"answer_id": "test-a10-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a10-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a11-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a11-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a11-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a11-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a12-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a12-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "596-p3-c4 states $11,950."}
+{"answer_id": "test-a12-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a12-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a13-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a13-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "596-p3-c4 states $64,430."}
+{"answer_id": "test-a13-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "$60,702 is wrong; gold $64,430."}
+{"answer_id": "test-a13-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a14-chunks", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": "Retrieved context lacks the evidence; refusal is right."}
+{"answer_id": "test-a14-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a14-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Age right; $18,540 is wrong; gold $19,104."}
+{"answer_id": "test-a14-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a15-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a15-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "596-p21-c4 states 2 and 10 years."}
+{"answer_id": "test-a15-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a15-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a16-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a16-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a16-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Gives $11,750 for 2023; gold $12,730 for 2025."}
+{"answer_id": "test-a16-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a17-chunks", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": "Retrieved context lacks the table row."}
+{"answer_id": "test-a17-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a17-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a18-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a18-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": false, "abstention": true, "notes": "20% inferred from examples and flagged, $2,000 max from 970-p22-c3; omits first $10,000, which context lacks."}
+{"answer_id": "test-a18-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a18-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a19-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a19-gold_removed", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Declines the phaseout range, context lacks it for this credit; gives $90,000 from 970-p11-c4. 'Only phaseout range' ignores the bond range, minor."}
+{"answer_id": "test-a19-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a19-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a20-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a20-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "970-p40-c2 has the rule and example."}
+{"answer_id": "test-a20-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a20-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a21-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a21-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "970-p59-c0 gives the $5,250 limit by implication."}
+{"answer_id": "test-a21-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": "$5,250 right; the $12,000 aside on 2025 law looks wrong and is outside the source."}
+{"answer_id": "test-a21-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a22-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a22-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "970-p58-c1 states the range."}
+{"answer_id": "test-a22-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "$151,200 and $181,200 are wrong; gold $149,250 and $179,250."}
+{"answer_id": "test-a22-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a23-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a23-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a23-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a23-full_document", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": false, "notes": "False refusal: publication p57 states age 24 before issue date."}
+{"answer_id": "test-a24-chunks", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": "Retrieved context lacks the caps."}
+{"answer_id": "test-a24-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a24-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a24-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a25-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a25-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "970-p33-c5 states smaller of $2,500 or interest paid."}
+{"answer_id": "test-a25-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a25-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a26-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a26-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a26-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a26-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a27-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a27-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a27-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a27-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a28-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a28-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a28-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": "Period right; cites IRC 1053(b), not the source."}
+{"answer_id": "test-a28-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a29-chunks", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": "Retrieved context lacks the terms."}
+{"answer_id": "test-a29-gold_removed", "faithful": true, "relevant": false, "correct": false, "complete": false, "abstention": false, "notes": "Lists other exceptions, never the payment terms; should have declined."}
+{"answer_id": "test-a29-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Wrong terms: omits more-often installments and until-65 with 5-year minimum; adds rest-of-life."}
+{"answer_id": "test-a29-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a30-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a30-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "503-p2-c4 states the age 19 rule."}
+{"answer_id": "test-a30-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a30-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a31-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a31-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a31-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a31-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a32-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a32-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a32-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Says $150 by proration; gold is the entire $250."}
+{"answer_id": "test-a32-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a33-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a33-gold_removed", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives only the 6-month point and declines home and cost tests; context lacks them."}
+{"answer_id": "test-a33-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": true, "abstention": null, "notes": "All three tests stated, but adds 'whom you claim as a dependent', a condition the source does not set."}
+{"answer_id": "test-a33-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a34-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a34-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a34-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a34-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a35-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a35-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "970-p17-c1 and 970-p18-c1 state the 4-year rule."}
+{"answer_id": "test-a35-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a35-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a36-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a36-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "970-p40-c1 and 970-p47-c0 state both."}
+{"answer_id": "test-a36-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a36-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a37-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a37-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a37-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Says age 24 with a student condition from IRC 152; gold is under 25."}
+{"answer_id": "test-a37-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a38-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a38-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a38-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": "Verdict right; box 12 code P aside is not in the source."}
+{"answer_id": "test-a38-full_document", "faithful": false, "relevant": true, "correct": false, "complete": true, "abstention": true, "notes": "Opens 'Yes' to a question whose answer is no; the rest of the sentence states the right rule."}
+{"answer_id": "test-a39-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a39-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "$200 computed from the rule in 970-p54-c4."}
+{"answer_id": "test-a39-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a39-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a40-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a40-gold_removed", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives 40%; declines the 17-year-old rule, absent from context."}
+{"answer_id": "test-a40-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Says the filer gets the refundable part; gold says none."}
+{"answer_id": "test-a40-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a41-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a41-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a41-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a41-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a42-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a42-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a42-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a42-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a43-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a43-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a43-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "$1,880 is wrong; gold $1,800."}
+{"answer_id": "test-a43-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a44-chunks", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives $2,000; declines the percentage, absent from context."}
+{"answer_id": "test-a44-gold_removed", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "$1,900 is wrong; gold $2,000. Reads 503-p11-c1 as subtracting the benefit; declines the percentage, absent from context."}
+{"answer_id": "test-a44-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "$1,900 and 20% are wrong; gold $2,000 and 30%."}
+{"answer_id": "test-a44-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a45-chunks", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives 5 months; declines the amount, absent from context."}
+{"answer_id": "test-a45-gold_removed", "faithful": false, "relevant": true, "correct": false, "complete": false, "abstention": false, "notes": "Context defines student for a child, not a spouse; the 5-month claim is borrowed. Amount declined."}
+{"answer_id": "test-a45-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "$600 is wrong; gold $250. Names the EITC rule."}
+{"answer_id": "test-a45-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a46-chunks", "faithful": false, "relevant": true, "correct": false, "complete": false, "abstention": false, "notes": "Says yes; gold no. Context limits deemed income to one spouse but not the conclusion, and answer asserts."}
+{"answer_id": "test-a46-gold_removed", "faithful": false, "relevant": true, "correct": false, "complete": false, "abstention": false, "notes": "Says yes; context lacks the one-spouse rule and the example, should have declined."}
+{"answer_id": "test-a46-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": true, "abstention": null, "notes": "Verdict no is right; reason and $400 figure are wrong; gold reason is deemed income for one spouse only."}
+{"answer_id": "test-a46-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a47-chunks", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": "Retrieved context lacks the table and example."}
+{"answer_id": "test-a47-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a47-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Uses 2023 and gets $6,561; gold $6,498."}
+{"answer_id": "test-a47-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a48-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a48-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "596-p3-c4 has both limits."}
+{"answer_id": "test-a48-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "$49,088 is wrong; gold $50,434."}
+{"answer_id": "test-a48-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a49-chunks", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": "Retrieved context lacks the Internet school rule."}
+{"answer_id": "test-a49-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a49-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a49-full_document", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": false, "notes": "False refusal: publication p12 states the rule and p10 the age test."}
+{"answer_id": "test-a50-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a50-gold_removed", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Declines the credit amount, formula absent from context; gives 40%."}
+{"answer_id": "test-a50-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a50-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a51-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a51-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "970-p42-c0 and c1 have the worksheet."}
+{"answer_id": "test-a51-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a51-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a52-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a52-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a52-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Full $3,000 is wrong; gold $2,550. $150,800 also wrong."}
+{"answer_id": "test-a52-full_document", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a53-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a53-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "503-p10-c2 has the rule; $550 computed."}
+{"answer_id": "test-a53-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a54-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a54-gold_removed", "faithful": false, "relevant": true, "correct": false, "complete": false, "abstention": false, "notes": "Attributes the Internet rule to Pub 503, but only Pub 501's qualifying-child text is in context. Declines EIC."}
+{"answer_id": "test-a54-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": "Verdict right on both; reason is an inferred attendance test, and it says it knows no explicit guidance though sources state it."}
+{"answer_id": "test-a55-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a55-gold_removed", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": "503-p11-c0 and 596-p20-c2 support it; cites the exclusion rule rather than the credit rule."}
+{"answer_id": "test-a55-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a56-chunks", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives $1,000; declines earned income point, absent from context."}
+{"answer_id": "test-a56-gold_removed", "faithful": null, "relevant": null, "correct": false, "complete": false, "abstention": true, "notes": ""}
+{"answer_id": "test-a56-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": "Core answer right; aside that any included scholarship is earned income conflicts with 503-p4-c4."}
+{"answer_id": "test-a57-chunks", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives medical part; declines tutoring part, absent from context."}
+{"answer_id": "test-a57-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a58-chunks", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives $50,434; declines $3,000, absent from context."}
+{"answer_id": "test-a58-gold_removed", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives $50,434; declines $3,000, absent from context."}
+{"answer_id": "test-a58-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "$49,084 is wrong; gold $50,434."}
+{"answer_id": "test-a59-chunks", "faithful": false, "relevant": true, "correct": true, "complete": true, "abstention": false, "notes": "Right, but the 5-month text in 970-p21-c2 is about the AOC refund rule, not the EIC test; context lacks the EIC test."}
+{"answer_id": "test-a59-gold_removed", "faithful": false, "relevant": true, "correct": false, "complete": false, "abstention": false, "notes": "Omits one academic period; infers half-time from the 1098-T note; borrows the 5-month text from the AOC refund rule."}
+{"answer_id": "test-a59-closed_book", "faithful": null, "relevant": true, "correct": true, "complete": true, "abstention": null, "notes": ""}
+{"answer_id": "test-a60-chunks", "faithful": true, "relevant": true, "correct": true, "complete": true, "abstention": true, "notes": ""}
+{"answer_id": "test-a60-gold_removed", "faithful": true, "relevant": true, "correct": false, "complete": false, "abstention": true, "notes": "Gives 70 cents; declines medical rate, absent from context."}
+{"answer_id": "test-a60-closed_book", "faithful": null, "relevant": true, "correct": false, "complete": false, "abstention": null, "notes": "Says 21 cents for work-related education; gold 70 cents."}
+{"answer_id": "test-u01-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u02-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u03-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u04-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u05-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u06-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u07-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u08-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u09-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u10-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u11-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u12-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u13-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u14-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u15-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u16-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u17-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u18-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u19-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u20-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u21-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u22-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u23-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u24-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u25-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u26-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u27-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u28-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u29-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u30-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u31-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u32-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u33-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u34-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u35-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u36-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u37-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u38-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u39-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
+{"answer_id": "test-u40-chunks", "faithful": null, "relevant": null, "correct": null, "complete": null, "abstention": true, "notes": ""}
